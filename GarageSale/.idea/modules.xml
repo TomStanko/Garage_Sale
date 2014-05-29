@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/GarageSale.iml" filepath="$PROJECT_DIR$/GarageSale.iml" />
+      <module fileurl="file://$PROJECT_DIR$/startpage/startpage.iml" filepath="$PROJECT_DIR$/startpage/startpage.iml" />
+    </modules>
+  </component>
+</project>
+
