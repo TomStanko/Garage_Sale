@@ -1,16 +1,15 @@
 package com.adaptivelite.garagesale.startpage;
 
-import android.support.v7.app.ActionBarActivity;
+import android.app.Activity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 
-public class MainActvity extends ActionBarActivity {
+public class MainActvity extends Activity{
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main_actvity);
     }
 
 
@@ -18,7 +17,7 @@ public class MainActvity extends ActionBarActivity {
     public boolean onCreateOptionsMenu(Menu menu) {
         
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.main_actvity, menu);
+        //getMenuInflater().inflate(R.menu.main_actvity, menu);
         return true;
     }
 

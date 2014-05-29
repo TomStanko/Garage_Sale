@@ -1,16 +1,42 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center"
+    android:background="#33FFCC"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingBottom="@dimen/activity_vertical_margin"
     tools:context="com.adaptivelite.garagesale.startpage.MainActvity">
-
-    <TextView
-        android:text="@string/hello_world"
+    <EditText
+        android:layout_span="2"
+        android:id="@+id/searchTerm"
+        android:background="#FFFFFF"
+        android:height="90px"
+        android:width="700px"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
-
+        android:layout_height="wrap_content"
+        android:layout_above="@id/searchButton"
+        android:layout_marginBottom="5px"/>
+    <Button
+        android:id="@+id/searchButton"
+        android:text="Search"
+        android:layout_centerVertical="true"
+        android:background="@drawable/RoundShapeBtn"
+        android:textColor="#FFFFFF"
+        android:width="345px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10px"/>
+    <Button
+        android:id="@+id/postButton"
+        android:text="Post Ad"
+        android:layout_centerVertical="true"
+        android:background="@drawable/RoundShapeBtn"
+        android:textColor="#FFFFFF"
+        android:width="345px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/searchButton"/>
 </RelativeLayout>
