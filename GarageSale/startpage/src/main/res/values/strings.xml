@@ -8,8 +8,11 @@
     <string name="first_name">First Name:</string>
     <string name="edit_first_name">Enter First Name</string>
     <string name="last_name">Last Name:</string>
+    <string name="edit_last_name">Enter Last Name</string>
     <string name="address">Address:</string>
+    <string name="edit_address">Enter Address</string>
     <string name="state">State:</string>
+    <string name="edit_state">Enter State</string>
     <string name="action_settings">Settings</string>
 
 
