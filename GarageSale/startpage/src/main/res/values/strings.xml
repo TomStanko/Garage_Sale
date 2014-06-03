@@ -2,7 +2,15 @@
 <resources>
 
     <string name="app_name">GarageSale</string>
-    <string name="hello_world">Hello world!</string>
+    <string name="search_text">Enter search keywords</string>
+    <string name="search_button_text">Search</string>
+    <string name="post_button">Post Ad</string>
+    <string name="first_name">First Name:</string>
+    <string name="edit_first_name">Enter First Name</string>
+    <string name="last_name">Last Name:</string>
+    <string name="address">Address:</string>
+    <string name="state">State:</string>
     <string name="action_settings">Settings</string>
+
 
 </resources>

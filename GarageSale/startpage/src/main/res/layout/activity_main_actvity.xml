@@ -9,35 +9,53 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingBottom="@dimen/activity_vertical_margin"
     tools:context="com.adaptivelite.garagesale.startpage.MainActvity">
-    <Button
-        android:id="@+id/searchButton"
-        android:text="Search"
-        android:layout_centerVertical="true"
-        android:background="@drawable/roundshapebtn"
-        android:textColor="#FFFFFF"
-        android:width="345px"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginRight="10px"/>
-    <Button
-        android:id="@+id/postButton"
-        android:text="Post Ad"
-        android:layout_centerVertical="true"
-        android:background="@drawable/roundshapebtn"
-        android:textColor="#FFFFFF"
-        android:width="345px"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_toRightOf="@id/searchButton"/>
     <EditText
         android:layout_span="2"
         android:id="@+id/searchTerm"
         android:background="#FFFFFF"
-        android:hint="Search keywords"
-        android:height="90px"
-        android:width="700px"
+        android:hint="@string/search_text"
+        android:height="50dp"
+        android:width="400dp"
         android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
         android:layout_height="wrap_content"
-        android:layout_above="@id/searchButton"
         android:layout_marginBottom="5px"/>
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="150dp"
+        android:src="@drawable/garagesale"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@id/searchTerm"
+        android:layout_marginBottom="10dp"/>
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/searchTerm"
+        android:layout_centerHorizontal="true">
+        <Button
+            android:id="@+id/searchButton"
+            android:text="@string/search_button_text"
+            android:layout_centerVertical="true"
+            android:background="@drawable/roundshapebtn"
+            android:textColor="#FFFFFF"
+            android:width="150dp"
+            android:height="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10px"
+            android:onClick="startSearch"/>
+        <Button
+            android:id="@+id/postButton"
+            android:text="@string/post_button"
+            android:layout_centerVertical="true"
+            android:background="@drawable/roundshapebtn"
+            android:textColor="#FFFFFF"
+            android:width="150dp"
+            android:height="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/searchButton"
+            android:onClick="goToPost"/>
+        </LinearLayout>
 </RelativeLayout>

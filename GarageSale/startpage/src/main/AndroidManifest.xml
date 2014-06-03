@@ -5,20 +5,24 @@
     <application
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
-        android:label="@string/app_name">
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
 
         <activity
             android:name="com.adaptivelite.garagesale.startpage.MainActvity"
             android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
-            <!--android:label="@string/app_name" >-->
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="com.adaptivelite.garagesale.startpage.PostActivity"
+            android:parentActivityName="com.adaptivelite.garagesale.startpage.MainActvity"
+            android:theme="@android:style/Theme.Holo.NoActionBar.Fullscreen">
+        </activity>
+
     </application>
 
 </manifest>
-    <!--android:icon="@drawable/ic_launcher"
-           android:label="@string/app_name"-->
