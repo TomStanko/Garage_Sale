@@ -42,7 +42,8 @@ public class MainActvity extends Activity{
     }
 
     public void startSearch(View view){
-
+        Intent intent2 = new Intent(this, MapActivity.class);
+        startActivity(intent2);
     }
 
 }

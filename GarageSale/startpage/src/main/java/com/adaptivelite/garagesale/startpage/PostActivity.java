@@ -33,5 +33,4 @@ public class PostActivity extends Activity{
         }
         return super.onOptionsItemSelected(item);
     }
-
 }
